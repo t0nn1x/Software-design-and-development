@@ -1,0 +1,15 @@
+C:\Users\antoo\UNI\KPZ\Lab-1\bin\Debug\net7.0\Lab-1.exe
+C:\Users\antoo\UNI\KPZ\Lab-1\bin\Debug\net7.0\Lab-1.deps.json
+C:\Users\antoo\UNI\KPZ\Lab-1\bin\Debug\net7.0\Lab-1.runtimeconfig.json
+C:\Users\antoo\UNI\KPZ\Lab-1\bin\Debug\net7.0\Lab-1.dll
+C:\Users\antoo\UNI\KPZ\Lab-1\bin\Debug\net7.0\Lab-1.pdb
+C:\Users\antoo\UNI\KPZ\Lab-1\obj\Debug\net7.0\Lab-1.csproj.AssemblyReference.cache
+C:\Users\antoo\UNI\KPZ\Lab-1\obj\Debug\net7.0\Lab-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antoo\UNI\KPZ\Lab-1\obj\Debug\net7.0\Lab-1.AssemblyInfoInputs.cache
+C:\Users\antoo\UNI\KPZ\Lab-1\obj\Debug\net7.0\Lab-1.AssemblyInfo.cs
+C:\Users\antoo\UNI\KPZ\Lab-1\obj\Debug\net7.0\Lab-1.csproj.CoreCompileInputs.cache
+C:\Users\antoo\UNI\KPZ\Lab-1\obj\Debug\net7.0\Lab-1.dll
+C:\Users\antoo\UNI\KPZ\Lab-1\obj\Debug\net7.0\refint\Lab-1.dll
+C:\Users\antoo\UNI\KPZ\Lab-1\obj\Debug\net7.0\Lab-1.pdb
+C:\Users\antoo\UNI\KPZ\Lab-1\obj\Debug\net7.0\Lab-1.genruntimeconfig.cache
+C:\Users\antoo\UNI\KPZ\Lab-1\obj\Debug\net7.0\ref\Lab-1.dll
