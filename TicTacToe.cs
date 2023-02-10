@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace TicTacToe
 {
@@ -6,6 +6,9 @@ namespace TicTacToe
     {
         private char[] board = new char[9];
         private int currentPlayer = 1;
+        private int player1Wins = 0;
+        private int player2Wins = 0;
+        private int draws = 0;
 
         public void Play()
         {
@@ -22,11 +25,22 @@ namespace TicTacToe
                     continue;
                 }
 
+                
+
                 if (IsWinningMove(move))
                 {
                     Console.Clear();
                     DrawBoard();
                     Console.WriteLine("Player " + currentPlayer + " wins!");
+                    if (currentPlayer == 1)
+                    {
+                        player1Wins++;
+                    }
+                    else
+                    {
+                        player2Wins++;
+                    }
+                    RestartGame();
                     break;
                 }
                 else if (IsDraw())
@@ -34,9 +48,10 @@ namespace TicTacToe
                     Console.Clear();
                     DrawBoard();
                     Console.WriteLine("It's a draw!");
+                    draws++;
+                    RestartGame();
                     break;
-                }
-
+                }               
                 SwitchPlayer();
             }
         }
@@ -54,6 +69,10 @@ namespace TicTacToe
             Console.WriteLine("Let's play Tic Tac Toe!");
             Console.WriteLine("Player 1: X");
             Console.WriteLine("Player 2: O");
+            Console.WriteLine();
+            Console.WriteLine("Player 1 wins: " + player1Wins);
+            Console.WriteLine("Player 2 wins: " + player2Wins);
+            Console.WriteLine("Draws: " + draws);
             Console.WriteLine();
             Console.WriteLine("Player " + currentPlayer + "'s turn. Select a cell from 1 to 9.");
             Console.WriteLine();
@@ -161,6 +180,24 @@ namespace TicTacToe
         {
             currentPlayer = currentPlayer == 1 ? 2 : 1;
         }
+
+        // add a function to restart the game after a win or a draw 
+        private void RestartGame()
+        {
+            Console.WriteLine("Would you like to play again? (Y/N)");
+            string input = Console.ReadLine();
+            if (input == "Y" || input == "y")
+            {
+                Play();
+            }
+            else
+            {
+                Environment.Exit(0);
+            }
+        }
+
+        
+
     }
 
     class Program
@@ -172,4 +209,3 @@ namespace TicTacToe
         }
     }
 }
-
