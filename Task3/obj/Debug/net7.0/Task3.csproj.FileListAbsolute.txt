@@ -1,0 +1,15 @@
+/Users/t0n1nx/University/Software_design/Lab-3/Task3/bin/Debug/net7.0/Task3
+/Users/t0n1nx/University/Software_design/Lab-3/Task3/bin/Debug/net7.0/Task3.deps.json
+/Users/t0n1nx/University/Software_design/Lab-3/Task3/bin/Debug/net7.0/Task3.runtimeconfig.json
+/Users/t0n1nx/University/Software_design/Lab-3/Task3/bin/Debug/net7.0/Task3.dll
+/Users/t0n1nx/University/Software_design/Lab-3/Task3/bin/Debug/net7.0/Task3.pdb
+/Users/t0n1nx/University/Software_design/Lab-3/Task3/obj/Debug/net7.0/Task3.csproj.AssemblyReference.cache
+/Users/t0n1nx/University/Software_design/Lab-3/Task3/obj/Debug/net7.0/Task3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/t0n1nx/University/Software_design/Lab-3/Task3/obj/Debug/net7.0/Task3.AssemblyInfoInputs.cache
+/Users/t0n1nx/University/Software_design/Lab-3/Task3/obj/Debug/net7.0/Task3.AssemblyInfo.cs
+/Users/t0n1nx/University/Software_design/Lab-3/Task3/obj/Debug/net7.0/Task3.csproj.CoreCompileInputs.cache
+/Users/t0n1nx/University/Software_design/Lab-3/Task3/obj/Debug/net7.0/Task3.dll
+/Users/t0n1nx/University/Software_design/Lab-3/Task3/obj/Debug/net7.0/refint/Task3.dll
+/Users/t0n1nx/University/Software_design/Lab-3/Task3/obj/Debug/net7.0/Task3.pdb
+/Users/t0n1nx/University/Software_design/Lab-3/Task3/obj/Debug/net7.0/Task3.genruntimeconfig.cache
+/Users/t0n1nx/University/Software_design/Lab-3/Task3/obj/Debug/net7.0/ref/Task3.dll
