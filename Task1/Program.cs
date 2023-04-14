@@ -1,27 +1,20 @@
 ﻿using System;
 
-namespace SubscriptionFactory
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            ISubscriptionFactory websiteSubscriptionFactory = new WebSiteSubscriptionFactory();
-            Subscription websiteSubscription = websiteSubscriptionFactory.CreateSubscription();
-            Console.WriteLine("Website subscription:");
-            websiteSubscription.Display();
+        Logger consoleLogger = new Logger();
+        consoleLogger.Log("This is a log message.");
+        consoleLogger.Error("This is an error message.");
+        consoleLogger.Warn("This is a warning message.");
 
-            ISubscriptionFactory mobileAppSubscriptionFactory = new MobileAppSubscriptionFactory();
-            Subscription mobileAppSubscription = mobileAppSubscriptionFactory.CreateSubscription();
-            Console.WriteLine("Mobile app subscription:");
-            mobileAppSubscription.Display();
+        string logFilePath = "log.txt";
+        FileLoggerAdapter fileLogger = new FileLoggerAdapter(logFilePath);
+        fileLogger.Log("This is a log message.");
+        fileLogger.Error("This is an error message.");
+        fileLogger.Warn("This is a warning message.");
 
-            ISubscriptionFactory managerCallSubscriptionFactory = new ManagerCallSubscriptionFactory();
-            Subscription managerCallSubscription = managerCallSubscriptionFactory.CreateSubscription();
-            Console.WriteLine("Manager call subscription:");
-            managerCallSubscription.Display();
-
-            Console.ReadLine();
-        }
+        Console.WriteLine($"File logger has written logs to {logFilePath}");
     }
 }

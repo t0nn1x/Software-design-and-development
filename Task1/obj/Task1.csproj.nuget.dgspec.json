@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/t0n1nx/University/Software_design/Lab-3/Task1/Task1.csproj": {}
+    "/Users/t0n1nx/University/software-design-and-development-uni-/Task1/Task1.csproj": {}
   },
   "projects": {
-    "/Users/t0n1nx/University/Software_design/Lab-3/Task1/Task1.csproj": {
+    "/Users/t0n1nx/University/software-design-and-development-uni-/Task1/Task1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/t0n1nx/University/Software_design/Lab-3/Task1/Task1.csproj",
+        "projectUniqueName": "/Users/t0n1nx/University/software-design-and-development-uni-/Task1/Task1.csproj",
         "projectName": "Task1",
-        "projectPath": "/Users/t0n1nx/University/Software_design/Lab-3/Task1/Task1.csproj",
+        "projectPath": "/Users/t0n1nx/University/software-design-and-development-uni-/Task1/Task1.csproj",
         "packagesPath": "/Users/t0n1nx/.nuget/packages/",
-        "outputPath": "/Users/t0n1nx/University/Software_design/Lab-3/Task1/obj/",
+        "outputPath": "/Users/t0n1nx/University/software-design-and-development-uni-/Task1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/t0n1nx/.nuget/NuGet/NuGet.Config"

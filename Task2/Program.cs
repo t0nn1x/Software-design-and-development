@@ -1,30 +1,35 @@
 ﻿using System;
 
-namespace ClothingFactory
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            ClothingFactory casualClothingFactory = new CasualClothingFactory();
-            MenClothing casualMenTshirt = casualClothingFactory.CreateMenClothing("Cotton T-shirt");
-            WomenClothing casualWomenTshirt = casualClothingFactory.CreateWomenClothing("Crop Top");
-            ChildrenClothing casualChildrenTshirt = casualClothingFactory.CreateChildrenClothing("Graphic T-shirt");
+        Hero warrior = new Warrior();
+        Hero mage = new Mage();
+        Hero paladin = new Paladin();
 
-            Console.WriteLine("Casual Clothing Factory:");
-            casualMenTshirt.Display();
-            casualWomenTshirt.Display();
-            casualChildrenTshirt.Display();
+        // Warrior with Clothes and Weapons
+        IInventory warriorInventory1 = new Weapons(new Clothes(null));
+        Console.WriteLine("Warrior 1: " + warriorInventory1.Apply(warrior));
 
-            ClothingFactory formalClothingFactory = new FormalClothingFactory();
-            MenClothing formalMenSuit = formalClothingFactory.CreateMenClothing("Black suit");
-            WomenClothing formalWomenDress = formalClothingFactory.CreateWomenClothing("Red dress");
-            ChildrenClothing formalChildrenOutfit = formalClothingFactory.CreateChildrenClothing("Formal outfit");
+        // Mage with Clothes and Artifacts
+        IInventory mageInventory1 = new Artifacts(new Clothes(null));
+        Console.WriteLine("Mage 1: " + mageInventory1.Apply(mage));
 
-            Console .WriteLine("\nFormal Clothing Factory:");
-            formalMenSuit.Display();
-            formalWomenDress.Display();
-            formalChildrenOutfit.Display();
-        }
+        // Paladin with Clothes, Weapons, and Artifacts
+        IInventory paladinInventory1 = new Artifacts(new Weapons(new Clothes(null)));
+        Console.WriteLine("Paladin 1: " + paladinInventory1.Apply(paladin));
+
+        // Warrior with only Weapons
+        IInventory warriorInventory2 = new Weapons(null);
+        Console.WriteLine("Warrior 2: " + warriorInventory2.Apply(warrior));
+
+        // Mage with only Artifacts
+        IInventory mageInventory2 = new Artifacts(null);
+        Console.WriteLine("Mage 2: " + mageInventory2.Apply(mage));
+
+        // Paladin with only Clothes
+        IInventory paladinInventory2 = new Clothes(null);
+        Console.WriteLine("Paladin 2: " + paladinInventory2.Apply(paladin));
     }
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/t0n1nx/University/Software_design/Lab-3/Task3/Task3.csproj",
+      "projectUniqueName": "/Users/t0n1nx/University/software-design-and-development-uni-/Task3/Task3.csproj",
       "projectName": "Task3",
-      "projectPath": "/Users/t0n1nx/University/Software_design/Lab-3/Task3/Task3.csproj",
+      "projectPath": "/Users/t0n1nx/University/software-design-and-development-uni-/Task3/Task3.csproj",
       "packagesPath": "/Users/t0n1nx/.nuget/packages/",
-      "outputPath": "/Users/t0n1nx/University/Software_design/Lab-3/Task3/obj/",
+      "outputPath": "/Users/t0n1nx/University/software-design-and-development-uni-/Task3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/t0n1nx/.nuget/NuGet/NuGet.Config"
